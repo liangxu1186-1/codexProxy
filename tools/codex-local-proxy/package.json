@@ -1,0 +1,14 @@
+{
+  "name": "codex-local-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:preview": "CODEX_ROUTER_PORT=3457 node src/server.js",
+    "cli": "node src/cli.js",
+    "init-config": "node scripts/init-config.js",
+    "package:macos": "node scripts/package-macos.js",
+    "test": "node --test"
+  }
+}
